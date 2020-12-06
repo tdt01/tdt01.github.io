@@ -1,36 +1,107 @@
 <!DOCTYPE html>
-<html lang="en-US">
-	<head>
-		<style>
-			body {
-				background-color: LightSkyBlue
-			}
-		</style>
-	</head>
-	
-	<body>
-		<h1 style="color: white; font-size: 60px; font-family: Cursive;">Trung Dung Tran, PhD</h1>
-		<h2 style="color: white;">Biostatistician, piano learner</h2>
-		<hr>
-		<p title="This is a paragraph" style="background-color: white">This is one paragraph. There will be more paragraph later. 
-		There is a link <a href = "https://www.w3schools.com"; target="_blank";>here</a>, not here.
-		This is a break <br>, i.e., starting from a new line.</p>
-		<p>NEW PARAGRAPH</p>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.left a {
+  background-color:LightSkyBlue;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+  text-decoration:none;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+  color: RoyalBlue;
+  line-height: 2;
+  text-align:justify;
+}
+.left {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.right {
+  background-color:LightSkyBlue;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
 
-		<img src="w3schools.jpg" width = "200", height = "300" alt = "Logo of W3">
-		<pre style="background-color: tomato; color: white; text-align: center">
-Using this pre element, we can preserve spaces
-			
-			and line breaks
-		</pre>
-		
-		<p>This is for a <mark>mark</mark></p>
-		
-		<!-- Write your comments here -->
-		<bdo dir="rtl" style="border:2px solid Violet;">This line will be written from right to left</bdo><br>
-		
-		<bdo dir="ltr">This line will be written from right to left</bdo>
-		
-		<a href="mailto:someone@example.com">Send email</a>
-	</body>
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;color:MidnightBlue; background-color: MintCream;">
+
+<div style="background-color:LightSkyBlue;padding:5px;text-align:center;">
+  <h1>Trung Dung Tran, PhD</h1>
+  <h1>Biostatistician, piano learner</h1>
+</div>
+
+<div style="overflow:auto">
+  
+  <div class="left">
+	
+      <a href="#"><h2>Link 1</h2></a><br>
+	  
+	  <a href="#"><h2>Link 2</h2></a><br>
+	  <a href="#"><h2>Link 3</h2></a><br>
+	  <a href="#"><h2>Link 4</h2></a><br>
+
+
+  </div>
+
+  <div class="main">
+    <h2>On going</h2>
+    <p>
+		What does a Biostatistician do?
+		Anytime statistics like “75% of people who smoke develop lung cancer," are heard, one can be sure that the hard work of a biostatistician was behind it.
+
+		These highly trained and educated people analyze and study the determining factors that impact the health and well-being of people, plants, and animals in order to arrive at conclusions about disorders, disease, or other health risks. With this information, a biostatistician can study the effects of various treatments based on the findings and numbers of the analysis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. What does a Biostatistician do?
+		Anytime statistics like “75% of people who smoke develop lung cancer," are heard, one can be sure that the hard work of a biostatistician was behind it.
+
+		These highly trained and educated people analyze and study the determining factors that impact the health and well-being of people, plants, and animals in order to arrive at conclusions about disorders, disease, or other health risks. With this information, a biostatistician can study the effects of various treatments based on the findings and numbers of the analysis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+		What does a Biostatistician do?
+		Anytime statistics like “75% of people who smoke develop lung cancer," are heard, one can be sure that the hard work of a biostatistician was behind it.
+
+		These highly trained and educated people analyze and study the determining factors that impact the health and well-being of people, plants, and animals in order to arrive at conclusions about disorders, disease, or other health risks. With this information, a biostatistician can study the effects of various treatments based on the findings and numbers of the analysis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. What does a Biostatistician do?
+		Anytime statistics like “75% of people who smoke develop lung cancer," are heard, one can be sure that the hard work of a biostatistician was behind it.
+
+		These highly trained and educated people analyze and study the determining factors that impact the health and well-being of people, plants, and animals in order to arrive at conclusions about disorders, disease, or other health risks. With this information, a biostatistician can study the effects of various treatments based on the findings and numbers of the analysis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+	</p>
+  </div>
+  <!--
+  <div class="right">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+  </div>
+  <div class="right">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+  </div>
+  -->
+</div>
+
+<div style="background-color:LightSkyBlue;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
+
+</body>
 </html>
