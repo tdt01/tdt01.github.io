@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.h1 {
+	color: RoyalBlue;
+}
+.main {
+  margin: auto;
+  /* border: 5px solid #FFFF00;*/
+  width:70%;
+  padding:0 20px;
+  color: black;
+  line-height: 2;
+  text-align:justify;
+  background-color: GhostWhite;
+}
+
+.header {
+  margin: auto;
+  /* border: 5px solid #FFFF00;*/
+  width:70%;
+  padding:0 20px;
+  color: white;
+
+  background-color: GhostWhite;
+}
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+/* Navigator bar */
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding:0 20px;
+  overflow: hidden;
+  background-color: GhostWhite;
+  width:70%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: RoyalBlue;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: blue;
+  color: white;
+}
+
+
+</style>
+</head>
+<body style="background-color: white; font-family:Verdana;">
+
+<div class="header">
+  <h1 style = "color: RoyalBlue;">Trung Dung Tran, PhD</h1>
+  <h2 style = "color: RoyalBlue;">Biostatistician, piano learner</h2>
+</div>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<div style="overflow:auto">
+  
+
+
+  <div class="main">
+    <h1 style = "color: RoyalBlue;">About</h1>
+    <p>
+		About me.
+	</p>
+  </div>
+  <!--
+  <div class="right">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+  </div>
+  <div class="right">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+  </div>
+  -->
+</div>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
